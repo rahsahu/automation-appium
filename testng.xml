@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Feature1" parallel="false">
+	<test name="UnitLevelTest">
+		<classes>
+		<class name="com.automation.mobile.app.APPTest"></class>
+		</classes>
+	</test>
+
+</suite>

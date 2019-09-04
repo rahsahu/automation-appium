@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="626.796" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/test-classes:/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/classes:/Users/rahulsahu/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/rahulsahu/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rahulsahu/.m2/repository/com/automation/automation-utils/0.0.1-SNAPSHOT/automation-utils-0.0.1-SNAPSHOT.jar:/Users/rahulsahu/.m2/repository/org/json/json/20180813/json-20180813.jar:/Users/rahulsahu/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/rahulsahu/.m2/repository/org/apache/wink/wink-json4j/1.4/wink-json4j-1.4.jar:/Users/rahulsahu/.m2/repository/org/apache/commons/commons-text/1.7/commons-text-1.7.jar:/Users/rahulsahu/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/rahulsahu/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/rahulsahu/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/rahulsahu/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/rahulsahu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rahulsahu/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rahulsahu/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/rahulsahu/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/rahulsahu/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/rahulsahu/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/rahulsahu/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/rahulsahu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/rahulsahu/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/rahulsahu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rahulsahu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/rahulsahu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/rahulsahu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/rahulsahu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/rahulsahu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/rahulsahu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/rahulsahu/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/rahulsahu/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/rahulsahu/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/rahulsahu/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/rahulsahu/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/surefire/surefirebooter7615789219975668743.jar /Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/surefire 2019-09-04T14-46-55_270-jvmRun1 surefire8792211746796641743tmp surefire_08540861966980444483tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/test-classes:/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/classes:/Users/rahulsahu/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/rahulsahu/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rahulsahu/.m2/repository/com/automation/automation-utils/0.0.1-SNAPSHOT/automation-utils-0.0.1-SNAPSHOT.jar:/Users/rahulsahu/.m2/repository/org/json/json/20180813/json-20180813.jar:/Users/rahulsahu/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/rahulsahu/.m2/repository/org/apache/wink/wink-json4j/1.4/wink-json4j-1.4.jar:/Users/rahulsahu/.m2/repository/org/apache/commons/commons-text/1.7/commons-text-1.7.jar:/Users/rahulsahu/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/rahulsahu/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/rahulsahu/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/rahulsahu/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/rahulsahu/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/rahulsahu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rahulsahu/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rahulsahu/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/rahulsahu/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/rahulsahu/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/rahulsahu/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/rahulsahu/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/rahulsahu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/rahulsahu/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/rahulsahu/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/rahulsahu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rahulsahu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/rahulsahu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/rahulsahu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/rahulsahu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/rahulsahu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/rahulsahu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/rahulsahu/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/rahulsahu/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/rahulsahu/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/rahulsahu/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/rahulsahu/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/rahulsahu/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rahulsahu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/surefire/surefirebooter7615789219975668743.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="rahulsahu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.3"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/rahulsahu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mm/v2ky8tn1087_3dpmt927zpw00000gp/T/"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="/Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/rahulsahu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="/Users/rahulsahu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testApplicaiton" classname="com.automation.mobile.app.APPTest" time="615.175">
+    <failure message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PUN-IT000501.local&apos;, ip: &apos;fe80:0:0:0:824:df21:9562:f111%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Connection refused (Connection refused)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUN-IT000501.local', ip: 'fe80:0:0:0:824:df21:9562:f111%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: driver.version: AndroidDriver
+	at com.automation.mobile.app.APPTest.testApplicaiton(APPTest.java:58)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.automation.mobile.app.APPTest.testApplicaiton(APPTest.java:58)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Driver_Type: ANDROID
+The osname printing isMac OS X
+ Message:kill existing Selenium Server using command - /Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/src/main/resources/driver/clearServer.sh - Command: [Ljava.lang.String;@617faa95
+ AUTOMATION_LOG: ==> EXIT_VALUE: 0
+ AUTOMATION_LOG: ==> OUTPUT: 0
+ AUTOMATION_LOG: ==> EXIT_VALUE: 0
+ AUTOMATION_LOG: ==> INPUTSTREAM: [Print running comands, rahulsahu        48887   0.0  0.9  4738052 145892   ??  S     2:43PM   0:04.47 /usr/local/Cellar/node/10.11.0/bin/node /usr/local/lib/node_modules/appium/build/lib/main.js --port 4387 --address 127.0.0.1 --log /Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/target/appiumLogs.txt --log-level error:debug, rahulsahu        49041   0.0  0.0  4276724   1680   ??  S     2:43PM   0:00.26 /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -P 5037 -s 988ad83557325a315930 logcat -v threadtime, rahulsahu        48494   0.0  0.5 10093656  85916   ??  S     2:43PM   0:01.52 /usr/bin/java -jar /Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium/src/main/resources/driver/selenium-server-standalone-3.141.59.jar -port 5555 -host localhost -debug -log target/selenium-logs.log]
+ AUTOMATION_LOG: ==> ERROR: []
+ AUTOMATION_LOG: ==> OUTPUT: 
+user.dir: /Users/rahulsahu/Documents/workspace-spring-tool-suite4401/automation-appium
+ Message:Running Selenium server - Command: [Ljava.lang.String;@4e9ba398
+ AUTOMATION_LOG: ==> EXIT_VALUE: 0
+ AUTOMATION_LOG: ==> OUTPUT: 0
+ AUTOMATION_LOG: ==> EXIT_VALUE: 0
+ AUTOMATION_LOG: ==> INPUTSTREAM: [Starting Server]
+ AUTOMATION_LOG: ==> ERROR: []
+ AUTOMATION_LOG: ==> OUTPUT: 
+ Selenium Server started on port - 5555
+osPaths - {appiumPath=/usr/local/lib/node_modules/appium/build/lib/main.js, nodePath=/usr/local/bin/node}
+ AUTOMATION_LOG: ==> COMMAND To execute: /Users/rahulsahu/Library/Android/sdk/platform-tools/adb kill-server
+ AUTOMATION_LOG: ==> Turning off device data  - '[sh -c  /Users/rahulsahu/Library/Android/sdk/platform-tools/adb kill-server]'
+ AUTOMATION_LOG: ==> COMMAND: rm -rf /tmp/5037
+ AUTOMATION_LOG: ==> Killing adb server - '[/bin/bash, -c, rm -rf /tmp/5037]'
+ AUTOMATION_LOG: ==> COMMAND_OUTPUT: 
+Starting Appium Server on port - 4387 from - {appiumPath=/usr/local/lib/node_modules/appium/build/lib/main.js, nodePath=/usr/local/bin/node}
+ Appium Server started on port - 4387
+ AUTOMATION_LOG: ==> COMMAND To execute: /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.build.version.release
+ AUTOMATION_LOG: ==> 988ad83557325a315930 getprop using command - /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.build.version.release - '[sh -c  /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.build.version.release]'
+ AUTOMATION_LOG: ==> COMMAND To execute: /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.product.model
+ AUTOMATION_LOG: ==> 988ad83557325a315930 getprop using command - /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.product.model - '[sh -c  /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.product.model]'
+(node:56792) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ AUTOMATION_LOG: ==> COMMAND To execute: /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.build.version.release
+ AUTOMATION_LOG: ==> 988ad83557325a315930 getprop using command - /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.build.version.release - '[sh -c  /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.build.version.release]'
+ AUTOMATION_LOG: ==> COMMAND To execute: /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.product.model
+ AUTOMATION_LOG: ==> 988ad83557325a315930 getprop using command - /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.product.model - '[sh -c  /Users/rahulsahu/Library/Android/sdk/platform-tools/adb -s 988ad83557325a315930 shell getprop ro.product.model]'
+[UiAutomator] UiAutomator exited unexpectedly with code 255, signal null
+Unhandled rejection Error: UiAUtomator shut down unexpectedly
+    at AndroidBootstrap.callee$2$0$ (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/bootstrap.js:187:42)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at enqueueResult (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (/usr/local/lib/node_modules/appium/node_modules/core-js/library/modules/$.export.js:30:36)
+    at AsyncIterator.enqueue (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at Object.runtime.async (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:209:12)
+    at UiAutomator.callee$2$0 (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/build/lib/bootstrap.js:356:42)
+    at UiAutomator.emit (events.js:182:13)
+    at UiAutomator.changeState (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/uiautomator.js:87:10)
+    at SubProcess.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/uiautomator.js:47:14)
+    at SubProcess.emit (events.js:182:13)
+    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/teen_process/lib/subprocess.js:136:14)
+    at ChildProcess.emit (events.js:182:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 04, 2019 2:47:17 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

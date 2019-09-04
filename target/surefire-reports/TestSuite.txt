@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 626.796 s <<< FAILURE! - in TestSuite
+testApplicaiton(com.automation.mobile.app.APPTest)  Time elapsed: 615.175 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused (Connection refused)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUN-IT000501.local', ip: 'fe80:0:0:0:824:df21:9562:f111%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_181'
+Driver info: driver.version: AndroidDriver
+	at com.automation.mobile.app.APPTest.testApplicaiton(APPTest.java:58)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.automation.mobile.app.APPTest.testApplicaiton(APPTest.java:58)
+
